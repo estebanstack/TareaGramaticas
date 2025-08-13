@@ -5,7 +5,7 @@ int capicua(const char *cadena) {
     int len = strlen(cadena);
     for (int i = 0; i < len; i++) {
         if (cadena[i] != '0' && cadena[i] != '1') {
-            return 0; // contiene caracteres inválidos
+            return 0; // contiene caracteres invalidos
         }
         if (cadena[i] != cadena[len - i - 1]) {
             return 0; // no es capicua
