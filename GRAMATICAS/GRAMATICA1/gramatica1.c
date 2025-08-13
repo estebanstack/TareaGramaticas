@@ -8,7 +8,7 @@ int capicua(const char *cadena) {
             return 0; // contiene caracteres inválidos
         }
         if (cadena[i] != cadena[len - i - 1]) {
-            return 0; // no es palíndromo
+            return 0; // no es capicua
         }
     }
     return 1;
