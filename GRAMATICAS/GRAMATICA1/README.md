@@ -23,6 +23,7 @@ Y no se aceptan cadenas como:
     010
 
 ## Código en Python
+```python
     def capicua(cadena):
       # Verifica que solo contenga 0 y 1
       if not all(ch in '01' for ch in cadena):
@@ -45,8 +46,10 @@ Y no se aceptan cadenas como:
 
     if __name__ == "__main__":
       main()
+```
 
 ## Código en C
+```c
     #include <stdio.h>
     #include <string.h>
   
@@ -90,6 +93,7 @@ Y no se aceptan cadenas como:
       fclose(fp);
       return 0;
     }
+```
 
 # Ejemplo de prueba
 
