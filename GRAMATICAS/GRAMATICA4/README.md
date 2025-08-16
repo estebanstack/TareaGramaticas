@@ -17,6 +17,7 @@ Es decir, cadenas compuestas unicamente por abb o ab.
     b
     
 ## Código en Python:
+```python
     def acepta_cadena(cadena):
     # La gramática G4 solo acepta exactamente "abb" o "ab"
     return cadena == "abb" or cadena == "ab"
@@ -37,8 +38,10 @@ Es decir, cadenas compuestas unicamente por abb o ab.
   
     if __name__ == "__main__":
       main()
+```
 
 ## Código en C: 
+```c
     #include <stdio.h>
     #include <string.h>
   
@@ -74,6 +77,7 @@ Es decir, cadenas compuestas unicamente por abb o ab.
       fclose(fp);
       return 0;
     }
+```
 
 ## Ejemplo de prueba:
 
