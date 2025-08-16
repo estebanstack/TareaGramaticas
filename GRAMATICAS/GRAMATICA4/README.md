@@ -75,6 +75,24 @@ Es decir, cadenas compuestas unicamente por abb o ab.
       return 0;
     }
 
+## Ejemplo de prueba:
+
+Archivo de entrada (prueba.txt):
+
+    ab
+    aabb
+    aababb
+    aabababb
+    aaabbbaab
+
+# Salida esperada:
+
+    acepta
+    acepta
+    acepta
+    acepta
+    no acepta
+
 ## Observaciones
 
 La gramática G4 genera un lenguaje muy reducido, con solo dos cadenas posibles: "abb" y "ab".
