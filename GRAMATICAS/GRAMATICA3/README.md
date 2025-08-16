@@ -19,6 +19,7 @@ Es decir, cadenas que comienzan con n letras a seguidas de n+1 letras b, con la 
     aaab
 
 ## Código en Python
+```python
     def acepta_cadena(cadena):
       n = 0
       length = len(cadena)
@@ -52,9 +53,10 @@ Es decir, cadenas que comienzan con n letras a seguidas de n+1 letras b, con la 
     if __name__ == "__main__":
       main()
 
-
+```
 
 ## Código en C
+```c
     #include <stdio.h>
     #include <string.h>
     
@@ -100,7 +102,8 @@ Es decir, cadenas que comienzan con n letras a seguidas de n+1 letras b, con la 
       fclose(fp);
       return 0;
     }
-    
+
+```
 ## Ejemplo de prueba
 
 Archivo de entrada (prueba.txt):
