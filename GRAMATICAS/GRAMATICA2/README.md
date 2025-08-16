@@ -21,6 +21,7 @@ Esto significa que la cadena debe contener primero varias a seguidas y después 
     aab
 
 ## Código en Python
+```python
     def acepta_cadena(cadena):
     # Contar cantidad de 'a' al inicio
     n = 0
@@ -48,8 +49,10 @@ Esto significa que la cadena debe contener primero varias a seguidas y después 
 
     if __name__ == "__main__":
       main()
+```
 
 ## Código en C  
+```c
     #include <stdio.h>
     #include <string.h>
 
@@ -93,6 +96,7 @@ Esto significa que la cadena debe contener primero varias a seguidas y después 
       fclose(fp);
       return 0;
       }
+```
 
 ## Ejemplo de prueba
 
