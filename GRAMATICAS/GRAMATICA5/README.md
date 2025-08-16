@@ -19,6 +19,7 @@ Es decir, cadenas que comienzan con a y terminan con b pero que contengan la may
     aaaabb
 
 ## Código en Python
+```python
     def acepta_cadena(cadena):
       # Debe empezar con 'a' y terminar con 'b'
       if len(cadena) < 2 or cadena[0] != 'a' or cadena[-1] != 'b':
@@ -55,8 +56,10 @@ Es decir, cadenas que comienzan con a y terminan con b pero que contengan la may
 
     if __name__ == "__main__":
       main()
+```
 
 ## Código en C:
+```c
     #include <stdio.h>
     #include <string.h>
 
@@ -111,6 +114,7 @@ Es decir, cadenas que comienzan con a y terminan con b pero que contengan la may
       fclose(fp);
       return 0;
     }
+```
 
 ## Ejemplo de prueba:
 
