@@ -123,4 +123,4 @@ En Python, fue sencillo con bucles que cuentan primero las a y luego las b.
 
 En C, la lógica fue exactamente igual pero recorriendo la cadena carácter por carácter.
 
-Los resultados fueron correctos: solo se aceptaron las cadenas con la forma {a^n b^{n+1}} y se rechazaron las demás.
+Los resultados fueron correctos: solo se aceptaron las cadenas con la forma ${a^n b^{n+1}}$ y se rechazaron las demás.
