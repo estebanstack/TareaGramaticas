@@ -2,7 +2,7 @@
 
 En esta segunda gramática se generan las cadenas de la forma:
 
-$𝐿(𝐺2)={𝑎^n 𝑏^n∣𝑛>=0}$
+$𝐿(𝐺2)={𝑎^n 𝑏^{n+1}∣𝑛>=0}$
 
 Esto significa que la cadena debe contener primero varias a seguidas y después la misma cantidad de b.
  
@@ -117,10 +117,10 @@ Archivo de entrada (prueba.txt):
     
 ## Observaciones
 
-En esta gramática validé que las cadenas tengan la misma cantidad de a que de b, en orden correcto.
+En esta gramática validé que las cadenas tengan una b mas que a.
 
 En Python, fue sencillo con bucles que cuentan primero las a y luego las b.
 
 En C, la lógica fue exactamente igual pero recorriendo la cadena carácter por carácter.
 
-Los resultados fueron correctos: solo se aceptaron las cadenas con la forma a^n b^n y se rechazaron las demás.
+Los resultados fueron correctos: solo se aceptaron las cadenas con la forma {a^n b^{n+1}} y se rechazaron las demás.
