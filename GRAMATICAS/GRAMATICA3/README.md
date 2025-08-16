@@ -127,8 +127,8 @@ La condición n > 0 garantiza que no se aceptan cadenas sin a.
 
 En la implementación en Python, se aprovecha la facilidad de manejo de cadenas y bucles para contar a y b.
 
-En la versión en C, se requiere más detalle en la manipulación de índices y eliminación del salto de línea (\n), pero el funcionamiento es equivalente.
+En la versión en C, se requiere más detalle en la manipulación de índices y eliminación del salto de línea (\n), pero funciona de la misma manera.
 
-Ambas versiones retornan "acepta" cuando la cadena cumple la forma a^n b^(n+1) y "no acepta" en cualquier otro caso.
+Ambas versiones retornan "acepta" cuando la cadena cumple la forma ${a^n b^{(n+1)}}$ y "no acepta" en cualquier otro caso.
 
 Se comprobó que cadenas como abb, aabbb, aaabbbb son aceptadas correctamente, mientras que ab, bbb, aabbbb no lo son.
